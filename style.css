@@ -56,13 +56,14 @@ main{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    flex-wrap: wrap;
     padding: 0px 140px;
 }
 .card{
     background-color: hsl(300, 43%, 22%);
     color: #fff;
-    padding: 40px 40px;
-    width: 395px;
+    padding: 40px 30px;
+    width: 385px;
     line-height: 24px;
     border-radius: 10px;
     font-size: 14px;
